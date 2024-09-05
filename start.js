@@ -107,7 +107,7 @@ const subject = new Rx.Subject()
 
 const subA = subject.subscribe(val => print(`Sub A : ${val}`))
 const subB = subject.subscribe(val => print(`Sub B : ${val}`))
-
+//unsubscribe is use to cancel thez execution of a subscrition
 subject.next('Hello')
 
 setTimeout(()=>{
