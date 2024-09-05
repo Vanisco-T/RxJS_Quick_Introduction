@@ -94,13 +94,9 @@ clicks.switchMap(click =>{
 .subscribe(res => print(res))
 
 //takeUntil operator - complet an observable base on the value of another observable
-
 //doWhile - take values until a certain condition set true 
-
 //zip operator - combine 2 observable
-
 //forkjoin - combine the 2 last values of the observable 
-
 //catch - permit to catch any error
 
 
@@ -117,6 +113,9 @@ subject.next('Hello')
 setTimeout(()=>{
     subject.next('World')
 },1000)
+
+
+
 
 
 //function to print values to the browser
